@@ -1,0 +1,6 @@
+# Tac gia: Ngô Thu Thúy
+# Ngay tao: 28/10/2026
+
+"=== BAO CAO LOI GAMEZONE ===" > .\logs\auto_report.txt 
+Get-Content .\logs\clinic.log | Select-String "ERROR" >> .\logs\auto_report.txt
+Write-Host "Da tao bao cao:"thanh cong"
